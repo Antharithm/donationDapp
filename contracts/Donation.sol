@@ -15,4 +15,24 @@ contract Donation {
     constructor() {
         owner = msg.sender;
     }
+
+    receive() external payable {
+        donation = Donation(
+            msg.sender,
+            msg.value
+        );
+
+        donations.push(donation);
+        totalDonations += msg.value;
+    }
+
+    function getDonations() external view returns (Donation[] memory) {
+        return donations;
+    }
+
+    // Sum of the total donations that have been made
+    function getTotalDonations() external view returns (uint256) {
+        return totalDonations;
+    }
+
 }
