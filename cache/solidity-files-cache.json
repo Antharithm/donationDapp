@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/anthibn/Desktop/donationDapp/donationDapp/contracts/Donation.sol": {
-      "lastModificationDate": 1662502526776,
-      "contentHash": "3122c2d87232137d80349c4b5d0963d9",
+      "lastModificationDate": 1662503679567,
+      "contentHash": "c951f909655fb7baad8e7ed5476f5457",
       "sourceName": "contracts/Donation.sol",
       "solcConfig": {
         "version": "0.8.0",

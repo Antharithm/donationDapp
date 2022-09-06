@@ -25,11 +25,11 @@ contract Donation {
     donations.push(donation);
     totalDonations += msg.value;
   }
-
+  // receive donations in Ether  
   function getDonations() external view returns (Donation[] memory) {
     return donations;
   }
-
+  // show total donations in Ether
   function getTotalDonations() external view returns (uint256) {
     return totalDonations;
   }
