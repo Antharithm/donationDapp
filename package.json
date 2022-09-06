@@ -1,0 +1,8 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "ethers": "^5.7.0",
+    "react-bootstrap-icons": "^1.8.4"
+  }
+}
